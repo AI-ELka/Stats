@@ -9,3 +9,7 @@ Y = [14, 8, 20, 3, 138,122, 78, 69, 111, 3,128, 31, 18, 35, 111,109, 36, 27, 32,
 t_stat= pg.ttest(X, Y)
 print("Statistique de test t :", t_stat)
 
+
+# Test t de Student unilatéral supérieur
+t_stat = pg.ttest(X, Y, alternative='greater')
+print("Statistique de test t :", t_stat)
