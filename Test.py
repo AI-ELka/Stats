@@ -1,3 +1,6 @@
+%pip install pingouin
+
+
 import pingouin as pg
 
 # Données d'exemple
