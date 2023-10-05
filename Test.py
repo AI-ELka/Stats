@@ -1,4 +1,4 @@
-%pip install pingouin
+
 
 
 import pingouin as pg
